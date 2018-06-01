@@ -1,5 +1,8 @@
 import webbrowser
 
+#create the class for movies with __init__ function to accept values when the class
+#is instatiated and a show_trailer function to load the trailer of the movie
+
 class Movie:
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
